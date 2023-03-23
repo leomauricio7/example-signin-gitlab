@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign in · GitLab</title>
+    <link rel="icon" href="./assets/images/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+  </head>
+  <body>
+    <!-- div root -->
+    <div class="container">
+      <!-- div header -->
+      <div class="header">
+        <img src="./assets/images/logo.svg" alt="git lab" />
+        <h1>GitLab.com</h1>
+      </div>
+
+      <!-- div body -->
+      <div class="body">
+        <!-- input of user -->
+        <div class="box-input">
+          <label for="user">Username or email</label>
+          <input id="user" type="text" required />
+        </div>
+
+        <!-- input of password -->
+        <div class="box-input">
+          <label for="password">Password</label>
+          <input id="password" type="password" required />
+        </div>
+
+        <!-- div of input remember or forgout password -->
+        <div class="box-check">
+          <div class="box-input"><input type="checkbox" /> Remember me</div>
+          <div class="forgot-password">
+            <a href="#">Forgot your password?</a>
+          </div>
+        </div>
+
+        <!-- button of submit -->
+        <button class="btn-sign-in">Sign in</button>
+
+        <!-- div text footer helpers -->
+        <div class="text-body">
+          <p class="text-terms">
+            By signing in you accept the
+            <a href="#"
+              >Terms of Use and acknowledge the Privacy Policy and Cookie
+              Policy.</a
+            >
+          </p>
+          <p class="text-register-account">
+            Don't have an account yet? <a href="#">Register now</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- div footer -->
+      <div class="footer">
+        <!-- title -->
+        <p class="title">Sign in with</p>
+
+        <!--  div whit buttons-->
+        <div class="buttons">
+          <button>
+            <img src="assets/images/google.png" />
+            <span>Google</span>
+          </button>
+          <button>
+            <img src="assets/images/github.png" /> <span>GitHub</span>
+          </button>
+          <button>
+            <img src="assets/images/twitter.png" /> <span>Twitter</span>
+          </button>
+          <button>
+            <img src="assets/images/bitbucket.png" /> <span>Bitbucket</span>
+          </button>
+          <button>
+            <img src="assets/images/salesforce.png" /> <span>Salesforce</span>
+          </button>
+        </div>
+
+        <!-- checkbox -->
+        <div class="box-input-remember-me">
+          <input type="checkbox" /> Remember me
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="links">
+        <a href="">Explore</a>
+        <a href="">Help</a>
+        <a href="">About GitLab</a>
+        <a href="">Community forum</a>
+      </div>
+      <button>
+        <img src="assets/icons/globe.png" alt="globe">
+        <span>English</span>
+        <img src="assets/icons/arrow.png" alt="arrow">
+      </button>
+    </div>
+  </body>
+</html>
